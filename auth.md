@@ -10,7 +10,7 @@ POST https://example.com/api/courier/auth
 ```
 
 ### Заголовки
-```json
+```
 Content-Type: application/json
 ```
 

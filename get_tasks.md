@@ -10,7 +10,7 @@ GET https://example.com/api/courier/tasks
 ```
 
 ### Заголовки
-```json
+```
 Authorization: Bearer <access_token>
 Content-Type: application/json
 ```
