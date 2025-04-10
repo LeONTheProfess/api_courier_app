@@ -6,7 +6,7 @@
 ## Формат запроса
 ### URL
 ```
-GET https://example.com/api/courier/tasks
+GET https://apiamb.kosmoslogistic.ru/api?command=tasks
 ```
 
 ### Заголовки

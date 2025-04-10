@@ -6,7 +6,7 @@
 ## Формат запроса
 ### URL
 ```
-POST https://example.com/api/courier/auth
+POST https://apiamb.kosmoslogistic.ru/api?command=auth
 ```
 
 ### Заголовки
