@@ -88,36 +88,35 @@ Content-Type: application/json
           "quantity": 1
         }
       ],
-      "nested_grm": 
-      {
-        "grm": "GRM898",
-        "dimensions": {
-          "weight": 20,
-          "length": 122,
-          "width": 80,
-          "height": 50
+    },
+    {
+      "nested_grm": "GRM898",
+      "dimensions": {
+        "weight": 20,
+        "length": 122,
+        "width": 80,
+        "height": 50
+      },
+      "grms": [
+        {
+          "grm": "GRM989",
+          "services": [
+            {
+              "name": "Услуга3",
+              "quantity": 1
+            }
+          ]
         },
-        "grms": [
-          {
-            "grm": "GRM989",
-            "services": [
-              {
-                "name": "Услуга3",
-                "quantity": 1
-              }
-            ]
-          },
-          {
-            "grm": "GRM988",
-            "services": [
-              {
-                "name": "Услуга3",
-                "quantity": 2
-              }
-            ]
-          }
-        ]
-      }
+        {
+          "grm": "GRM988",
+          "services": [
+            {
+              "name": "Услуга3",
+              "quantity": 2
+            }
+          ]
+        }
+      ]
     },
     {
       "grm": "GRM101",
